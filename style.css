@@ -1,0 +1,163 @@
+
+    *{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0px;
+    }
+    body{
+        background-color: #fff;
+    }
+    .row{
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+        height: 100%;
+        width: 100%;
+    }
+    .row .box1{
+        background-color: #000;
+        color: #fff;
+        min-height: 50vw;
+    }
+    .rm{
+        margin: 20px 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .box1 h3{
+        margin: 30px 40px;
+        font-size: 20px;
+        
+    }
+    .box2{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .box2 *{
+        margin: 10px;
+    }
+    a{
+        text-decoration: none;
+    }
+    .box1 .container{
+        width: 100%;
+        margin: 40px 20px;
+    }
+    .item{
+        margin: 20px;
+    }
+    .container .item a{
+        color: grey;
+        text-decoration: none;
+    }
+    .item a:hover{
+        color: #fff;
+        background-color: blue;
+    }
+
+    .nav{
+        width: 100%;
+        display: flex;
+        justify-content: end;
+        background-color: #fff;
+    }
+    .nav *{
+        display: inline;
+        padding: 30px;
+    }
+    .field1{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .field2{
+        width: 95%;
+        background-color: #fff;
+    }
+    .cd-1{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    table{
+        width: 90%;
+        text-align: left;
+    }
+    td button,.btn-green{
+        background-color: green;
+        color:#fff;
+        padding: 2px;
+        border-radius: 5px;
+        border: none;
+    }
+    thead{
+        background-color: #000;
+        color: #fff;
+    
+    }
+    thead th{
+        padding: 10px;
+    }
+    .btn-green{
+        padding: 10px;
+        margin: 10px;
+        border: none;
+    }
+    td a{
+        color: red;
+    }
+
+    .head a{
+        color: #000;
+    }
+    .chat-box span{
+        width: 70%;
+        border-radius: 9px;
+        border: 1px solid grey;
+        box-shadow: 1px 1px grey;
+        padding: 5px 7px;
+    }
+    .send{
+        float: right;
+        background-color: blue;
+        color: #fff;
+    }
+    .receive{
+        float: left;
+        background-color: #fff;
+    }
+    .box3{
+        background-color: rgb(155, 185, 249);
+        width: 92%;
+        border-radius: 10px;
+        padding-bottom: 100px;
+    }
+    .message{
+        position: fixed;
+        bottom: 2px;
+        
+    }
+form{
+    display: flex;
+        align-items: center;
+        justify-content: center;
+}
+.post{
+    background-color: blue;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    padding: 10px 12px;
+}
+.message form span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 20px;
+}
+.chat{
+    margin: 2px 10px;
+}
